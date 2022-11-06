@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/twenty-twenty/site/"
-title = "Twenty Twenty Hugo"
-theme = "twenty-twenty-hugo"
+title = "Preston Carpets"
+theme = "carpets-theme"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
@@ -59,9 +59,25 @@ weight = 5
 
 # only desktop menu
 [[menu.desktop]]
-name = "Contact"
-URL = "contact/"
+name = "Work"
+URL = "work/"
 weight = 1
+
+[[menu.desktop]]
+name = "About"
+URL = "about/"
+weight = 2
+
+[[menu.desktop]]
+name = "Our Services"
+URL = "services/"
+weight = 3
+
+[[menu.desktop]]
+name = "Contact Us"
+URL = "contact/"
+weight = 4
+
 
 
 #################### default parameters ################################
@@ -81,7 +97,7 @@ expire_days = 2
 
 # banner
 [params.banner]
-heading = "The New UMoMA Opens its Doors"
+heading = "Suppliers of a wide range of carpets, vinyls and wood flooring."
 image = "images/2020-landscape-1-2.png"
 
 # blog
